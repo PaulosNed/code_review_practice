@@ -4,7 +4,7 @@ import { toast } from 'react-toastify'
 import Loader from '../components/Loader'
 import axios from 'axios'
 import jwt_decode from 'jwt-decode';
-import getApiKey from '../apiKeys'
+// import getApiKey from '../apiKeys'
 
 function Login() {
     const endpoint = getApiKey()
